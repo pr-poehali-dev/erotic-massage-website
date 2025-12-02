@@ -31,7 +31,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <section id="hero" className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background/90"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/05ad9283-8771-435b-acac-ab073bf03ec8.jpg)' }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/85 to-background/95"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-light tracking-wide text-foreground">
