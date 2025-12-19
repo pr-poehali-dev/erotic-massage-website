@@ -346,6 +346,53 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-24 px-6 bg-[#3d2817]">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-6 space-y-2">
+            <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
+              Bitter Chocolate
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              для раскрепощённых джентльменов
+            </p>
+          </div>
+
+          <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 text-lg">
+            Эта программа придется по вкусу настоящим ценителям властных и страстных женщин.
+          </p>
+
+          <Card className="bg-[#1f1108] border-red-600/30 overflow-hidden hover:scale-[1.02] transition-transform duration-300">
+            <div className="grid md:grid-cols-2 gap-0">
+              <div className="aspect-square md:aspect-auto overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/669d888f342ed9747720c25d_IMG_7941 1.png"
+                  alt="Lady Bathory"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-8 md:p-12 flex flex-col justify-center">
+                <h3 className="text-4xl md:text-5xl font-light text-foreground mb-6">Lady Bathory</h3>
+                <p className="text-muted-foreground leading-relaxed mb-8 text-lg">
+                  Погрузись в мир власти и страсти. Насладись незабываемым опытом с королевой доминирования.
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-baseline gap-3">
+                    <span className="text-4xl md:text-5xl font-semibold text-red-600">10 000 руб</span>
+                    <span className="text-muted-foreground text-lg">/ 60 мин.</span>
+                  </div>
+                  <Button 
+                    size="lg"
+                    className="w-full bg-red-600 hover:bg-red-700 text-white text-lg py-6"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </div>
+      </section>
+
       <section id="about" className="py-24 px-6 bg-[#140700]">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center space-y-4">
