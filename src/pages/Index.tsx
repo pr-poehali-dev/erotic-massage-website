@@ -49,7 +49,7 @@ const Index = () => {
         ></div>
         
         <div className="relative z-10 max-w-3xl text-left space-y-8 animate-fade-in pt-32 md:pt-40">
-          <div className="inline-block bg-orange-600/90 text-white px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider">
+          <div className="inline-block text-white px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider bg-[#cc9f67]">
             Эротический массаж в Нижнем Новгороде
           </div>
           
