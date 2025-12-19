@@ -137,7 +137,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
-              Мастера <span className="text-accent">спа-салона</span>
+              Мастера <span className="text-orange-500 font-medium">спа-салона</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Посетив Gentleman Spa Шоколад, даже самый искушённый гость, получит 100% удовольствие и расслабление!
