@@ -37,32 +37,34 @@ const Index = () => {
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/85 to-background/95 my-0 px-0 mx-9"></div>
         
-        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          <h1 className="text-6xl md:text-8xl font-light tracking-wide text-foreground">
-            Искусство
-            <span className="block text-accent font-normal">прикосновений</span>
+        <div className="relative z-10 max-w-4xl mx-auto text-left space-y-8 animate-fade-in">
+          <div className="inline-block bg-accent/90 text-background px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider">
+            Эротический массаж в Нижнем Новгороде
+          </div>
+          
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-tight">
+            Мужской клуб<br/>
+            GENTLEMAN CLUB<br/>
+            CHOCOLATE
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
-            Погрузитесь в мир чувственного расслабления и эстетического удовольствия
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+          <div className="flex flex-col gap-6 pt-4">
             <Button 
               size="lg" 
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-normal px-8 py-6 text-lg"
+              className="bg-accent hover:bg-accent/90 text-background font-semibold px-10 py-7 text-lg w-fit rounded-lg"
               onClick={() => scrollToSection('specialists')}
             >
-              Наши специалисты
+              Выбрать девушку
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-accent text-accent hover:bg-accent/10 font-normal px-8 py-6 text-lg"
-              onClick={() => scrollToSection('contacts')}
-            >
-              Связаться с нами
-            </Button>
+            
+            <div className="space-y-1">
+              <p className="text-lg md:text-xl text-foreground font-medium">
+                Скидка 10% на первое посещение
+              </p>
+              <p className="text-sm md:text-base text-muted-foreground">
+                *действует от 60 минут
+              </p>
+            </div>
           </div>
         </div>
 
