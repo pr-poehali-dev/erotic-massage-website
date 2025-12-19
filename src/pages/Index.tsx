@@ -487,7 +487,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contacts" className="py-24 px-6 bg-card/30">
+      <section id="contacts" className="py-24 px-6 bg-[#3d2817]">
         <div className="max-w-4xl mx-auto text-center space-y-12">
           <div className="space-y-4">
             <h2 className="text-5xl md:text-6xl font-light text-foreground">
