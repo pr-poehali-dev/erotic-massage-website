@@ -191,6 +191,126 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="services" className="py-24 px-6 bg-background">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-6 space-y-2">
+            <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
+              White Chocolate
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              для джентльменов, ограниченных во времени
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-normal text-foreground">Express</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Экспресс программа подойдёт тебе, если ты хочешь впервые познакомиться с нашим SPA-клубом или очень спешишь...
+                </p>
+                <div className="pt-4 space-y-3">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-semibold text-orange-600">4000 руб</span>
+                    <span className="text-muted-foreground">/ 30 мин.</span>
+                  </div>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-normal text-foreground">Эгоист</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Легкая завеса загадочности и бесконечное очарование необычной красоты. Эта программа для тех, кто не любит торопиться.
+                </p>
+                <div className="pt-4 space-y-3">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-semibold text-orange-600">5000 руб</span>
+                    <span className="text-muted-foreground">/ 45 мин.</span>
+                  </div>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-normal text-foreground">Вожделение</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Экспресс программа подойдёт тебе, если ты хочешь впервые познакомиться с нашим SPA-клубом или очень спешишь...
+                </p>
+                <div className="pt-4 space-y-3">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-semibold text-orange-600">7000 руб</span>
+                    <span className="text-muted-foreground">/ 60 мин.</span>
+                  </div>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-normal text-foreground">Поцелуй Гейши</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Руки гейши растворят твои эмоции в потоке холодного и горячего наслаждения. Окунут в море удовольствия и незабываемого времяпрепровождения.
+                </p>
+                <div className="pt-4 space-y-3">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-semibold text-orange-600">8000 руб</span>
+                    <span className="text-muted-foreground">/ 60 мин.</span>
+                  </div>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-normal text-foreground">Вожделение 2.0</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Перед таким не устоять. Яркая чувственная часть и долгое приятное послевкусие.
+                </p>
+                <div className="pt-4 space-y-3">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-semibold text-orange-600">9000 руб</span>
+                    <span className="text-muted-foreground">/ 60 мин.</span>
+                  </div>
+                  <Button 
+                    variant="outline"
+                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="py-24 px-6">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center space-y-4">
