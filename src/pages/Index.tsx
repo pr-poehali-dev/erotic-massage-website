@@ -203,13 +203,20 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
-            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
-              <div className="p-6 space-y-4">
-                <h3 className="text-2xl font-normal text-foreground">Express</h3>
-                <p className="text-muted-foreground leading-relaxed">
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/459ff211-f78c-46a5-ada3-46cbd086f706.jpg"
+                  alt="Express"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Express</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
                   Экспресс программа подойдёт тебе, если ты хочешь впервые познакомиться с нашим SPA-клубом или очень спешишь...
                 </p>
-                <div className="pt-4 space-y-3">
+                <div className="pt-4 space-y-3 mt-auto">
                   <div className="flex items-baseline gap-2">
                     <span className="text-3xl font-semibold text-orange-600">4000 руб</span>
                     <span className="text-muted-foreground">/ 30 мин.</span>
@@ -224,13 +231,20 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
-              <div className="p-6 space-y-4">
-                <h3 className="text-2xl font-normal text-foreground">Эгоист</h3>
-                <p className="text-muted-foreground leading-relaxed">
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/d59e29a4-fb49-4d60-ab4b-2a0c3b283bf0.jpg"
+                  alt="Эгоист"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Эгоист</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
                   Легкая завеса загадочности и бесконечное очарование необычной красоты. Эта программа для тех, кто не любит торопиться.
                 </p>
-                <div className="pt-4 space-y-3">
+                <div className="pt-4 space-y-3 mt-auto">
                   <div className="flex items-baseline gap-2">
                     <span className="text-3xl font-semibold text-orange-600">5000 руб</span>
                     <span className="text-muted-foreground">/ 45 мин.</span>
@@ -245,13 +259,20 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
-              <div className="p-6 space-y-4">
-                <h3 className="text-2xl font-normal text-foreground">Вожделение</h3>
-                <p className="text-muted-foreground leading-relaxed">
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/1346fe87-4a20-4c41-bbd7-94c021c45530.jpg"
+                  alt="Вожделение"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Вожделение</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
                   Экспресс программа подойдёт тебе, если ты хочешь впервые познакомиться с нашим SPA-клубом или очень спешишь...
                 </p>
-                <div className="pt-4 space-y-3">
+                <div className="pt-4 space-y-3 mt-auto">
                   <div className="flex items-baseline gap-2">
                     <span className="text-3xl font-semibold text-orange-600">7000 руб</span>
                     <span className="text-muted-foreground">/ 60 мин.</span>
@@ -266,13 +287,20 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
-              <div className="p-6 space-y-4">
-                <h3 className="text-2xl font-normal text-foreground">Поцелуй Гейши</h3>
-                <p className="text-muted-foreground leading-relaxed">
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/ab73daf2-978a-48f5-b0aa-0dce988d39d3.jpg"
+                  alt="Поцелуй Гейши"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Поцелуй Гейши</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
                   Руки гейши растворят твои эмоции в потоке холодного и горячего наслаждения. Окунут в море удовольствия и незабываемого времяпрепровождения.
                 </p>
-                <div className="pt-4 space-y-3">
+                <div className="pt-4 space-y-3 mt-auto">
                   <div className="flex items-baseline gap-2">
                     <span className="text-3xl font-semibold text-orange-600">8000 руб</span>
                     <span className="text-muted-foreground">/ 60 мин.</span>
@@ -287,13 +315,20 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300">
-              <div className="p-6 space-y-4">
-                <h3 className="text-2xl font-normal text-foreground">Вожделение 2.0</h3>
-                <p className="text-muted-foreground leading-relaxed">
+            <Card className="bg-[#1f1108] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/9d8e1275-57a4-4e73-a0b5-df6344ce7d0d.jpg"
+                  alt="Вожделение 2.0"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Вожделение 2.0</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
                   Перед таким не устоять. Яркая чувственная часть и долгое приятное послевкусие.
                 </p>
-                <div className="pt-4 space-y-3">
+                <div className="pt-4 space-y-3 mt-auto">
                   <div className="flex items-baseline gap-2">
                     <span className="text-3xl font-semibold text-orange-600">9000 руб</span>
                     <span className="text-muted-foreground">/ 60 мин.</span>
