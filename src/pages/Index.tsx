@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { useState } from "react";
 
 const Index = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const specialists = [
     {
       name: "Алина",
@@ -60,6 +62,137 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[#1f1108]/95 backdrop-blur-sm border-b border-orange-600/20">
+        <div className="max-w-7xl mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-12">
+              <img 
+                src="https://cdn.poehali.dev/files/669d6128745bdd71a1d84303_Screenshot-1-OCnBIzL.png"
+                alt="Chocolate Logo"
+                className="h-16 w-auto"
+              />
+              
+              <nav className="hidden lg:flex items-center gap-8">
+                <button 
+                  onClick={() => scrollToSection('specialists')}
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  Мастера
+                </button>
+                <button 
+                  onClick={() => scrollToSection('services')}
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  Услуги
+                </button>
+                <button 
+                  onClick={() => scrollToSection('vacancy')}
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  Вакансии
+                </button>
+                <button 
+                  onClick={() => scrollToSection('promo')}
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  Акции
+                </button>
+              </nav>
+            </div>
+
+            <div className="hidden lg:flex items-center gap-6">
+              <div className="flex items-center gap-3">
+                <a 
+                  href="https://vk.com/yoursalon" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  <Icon name="MessageSquare" size={20} />
+                </a>
+                <a 
+                  href="https://t.me/yoursalon" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  <Icon name="Send" size={20} />
+                </a>
+              </div>
+              
+              <div className="flex flex-col text-sm">
+                <a href="tel:+79200117839" className="text-foreground hover:text-orange-600 transition-colors font-medium">
+                  +7-920-011-78-39
+                </a>
+                <span className="text-muted-foreground text-xs">г. Нижний Новгород</span>
+              </div>
+            </div>
+
+            <button 
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden text-foreground"
+            >
+              <Icon name={mobileMenuOpen ? "X" : "Menu"} size={28} />
+            </button>
+          </div>
+        </div>
+
+        {mobileMenuOpen && (
+          <div className="lg:hidden bg-[#140700] border-t border-orange-600/20">
+            <nav className="flex flex-col p-6 gap-4">
+              <button 
+                onClick={() => { scrollToSection('specialists'); setMobileMenuOpen(false); }}
+                className="text-left text-muted-foreground hover:text-orange-600 transition-colors py-2"
+              >
+                Мастера
+              </button>
+              <button 
+                onClick={() => { scrollToSection('services'); setMobileMenuOpen(false); }}
+                className="text-left text-muted-foreground hover:text-orange-600 transition-colors py-2"
+              >
+                Услуги
+              </button>
+              <button 
+                onClick={() => { scrollToSection('vacancy'); setMobileMenuOpen(false); }}
+                className="text-left text-muted-foreground hover:text-orange-600 transition-colors py-2"
+              >
+                Вакансии
+              </button>
+              <button 
+                onClick={() => { scrollToSection('promo'); setMobileMenuOpen(false); }}
+                className="text-left text-muted-foreground hover:text-orange-600 transition-colors py-2"
+              >
+                Акции
+              </button>
+              
+              <div className="flex items-center gap-4 pt-4 border-t border-orange-600/20">
+                <a 
+                  href="https://vk.com/yoursalon" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  <Icon name="MessageSquare" size={24} />
+                </a>
+                <a 
+                  href="https://t.me/yoursalon" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-orange-600 transition-colors"
+                >
+                  <Icon name="Send" size={24} />
+                </a>
+              </div>
+              
+              <a href="tel:+79200117839" className="text-foreground hover:text-orange-600 transition-colors font-medium pt-2">
+                +7-920-011-78-39
+              </a>
+              <span className="text-muted-foreground text-sm">г. Нижний Новгород</span>
+            </nav>
+          </div>
+        )}
+      </header>
+
       <section id="hero" className="relative min-h-screen flex items-center justify-center px-8 md:px-16 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
