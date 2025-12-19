@@ -84,6 +84,25 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-12 px-6 bg-orange-600/10 border-y border-orange-600/20">
+        <div className="max-w-4xl mx-auto text-center space-y-4">
+          <p className="text-base md:text-lg text-foreground leading-relaxed">
+            Дорогие гости! К сожалению, звонки в Telegram и WhatsApp на территории РФ блокируют. 
+            Но вы всегда можете связаться с нами по номеру телефона{' '}
+            <a href="tel:+79200117839" className="text-orange-600 font-semibold hover:text-orange-700 underline">
+              +7-920-011-78-39
+            </a>{' '}
+            ❤️
+          </p>
+          <div className="pt-2 space-y-1">
+            <p className="text-xl md:text-2xl font-semibold text-foreground">21+</p>
+            <p className="text-sm text-muted-foreground italic">
+              *если молодо выглядишь — захвати паспорт
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="specialists" className="py-24 px-6 bg-card/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
