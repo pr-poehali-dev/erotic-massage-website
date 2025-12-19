@@ -35,7 +35,13 @@ const Index = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/05ad9283-8771-435b-acac-ab073bf03ec8.jpg)' }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/85 to-background/95 my-0 px-0 mx-9"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
+        <div 
+          className="absolute inset-0 opacity-30"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E")`
+          }}
+        ></div>
         
         <div className="relative z-10 max-w-4xl mx-auto text-left space-y-8 animate-fade-in">
           <div className="inline-block bg-accent/90 text-background px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider">
