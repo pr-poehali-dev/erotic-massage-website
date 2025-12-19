@@ -191,7 +191,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="py-24 px-6 bg-background">
+      <section id="services" className="py-24 px-6 bg-[#0b0501]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-6 space-y-2">
             <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
