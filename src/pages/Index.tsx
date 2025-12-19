@@ -148,7 +148,7 @@ const Index = () => {
             {specialists.map((specialist, index) => (
               <Card 
                 key={index}
-                className="bg-card border-border overflow-hidden hover:scale-105 transition-transform duration-300 group"
+                className="bg-[#4d3520] border-border overflow-hidden hover:scale-105 transition-transform duration-300 group"
               >
                 <div className="aspect-[3/4] overflow-hidden">
                   <img 
@@ -179,7 +179,7 @@ const Index = () => {
                   </div>
                   <Button 
                     size="sm"
-                    className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
                     onClick={() => scrollToSection('contact')}
                   >
                     Записаться
