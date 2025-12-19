@@ -177,6 +177,13 @@ const Index = () => {
                       <span className="text-muted-foreground">{specialist.bust} размер</span>
                     </div>
                   </div>
+                  <Button 
+                    size="sm"
+                    className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
+                    onClick={() => scrollToSection('contact')}
+                  >
+                    Записаться
+                  </Button>
                 </div>
               </Card>
             ))}
