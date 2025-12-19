@@ -148,7 +148,7 @@ const Index = () => {
             {specialists.map((specialist, index) => (
               <Card 
                 key={index}
-                className="bg-[#4d3520] border-border overflow-hidden hover:scale-105 transition-transform duration-300 group"
+                className="bg-[#1f1108] border-border overflow-hidden hover:scale-105 transition-transform duration-300 group"
               >
                 <div className="aspect-[3/4] overflow-hidden">
                   <img 
@@ -161,19 +161,19 @@ const Index = () => {
                   <h3 className="text-2xl font-normal text-foreground">{specialist.name}</h3>
                   <div className="grid grid-cols-2 gap-3 text-sm">
                     <div className="flex items-center gap-2">
-                      <Icon name="Cake" size={16} className="text-accent" />
+                      <Icon name="Cake" size={16} className="text-orange-600" />
                       <span className="text-muted-foreground">{specialist.age} лет</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Icon name="Ruler" size={16} className="text-accent" />
+                      <Icon name="Ruler" size={16} className="text-orange-600" />
                       <span className="text-muted-foreground">{specialist.height} см</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Icon name="Scale" size={16} className="text-accent" />
+                      <Icon name="Scale" size={16} className="text-orange-600" />
                       <span className="text-muted-foreground">{specialist.weight} кг</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Icon name="Heart" size={16} className="text-accent" />
+                      <Icon name="Heart" size={16} className="text-orange-600" />
                       <span className="text-muted-foreground">{specialist.bust} размер</span>
                     </div>
                   </div>
