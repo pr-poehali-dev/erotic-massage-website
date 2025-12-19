@@ -377,7 +377,7 @@ const Index = () => {
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-4xl md:text-5xl font-semibold text-red-600">10 000 руб</span>
+                    <span className="text-4xl md:text-5xl font-semibold text-orange-500">10 000 руб</span>
                     <span className="text-muted-foreground text-lg">/ 60 мин.</span>
                   </div>
                   <Button 
