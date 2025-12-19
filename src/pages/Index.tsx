@@ -7,20 +7,26 @@ const Index = () => {
     {
       name: "Алина",
       age: 24,
-      description: "Профессиональный массажист с 5-летним опытом. Специализируется на расслабляющих и чувственных техниках.",
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/5bcc68ab-cc29-4e6a-91d1-355829c3cc7b.jpg"
+      height: 168,
+      weight: 52,
+      bust: 3,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/3afc6294-f79e-4042-b408-93dd19f196ea.jpg"
     },
     {
       name: "Вероника",
       age: 26,
-      description: "Мастер эротического массажа. Создаёт атмосферу абсолютного расслабления и наслаждения.",
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/9e31f025-b3dc-4898-9768-843addaa312c.jpg"
+      height: 172,
+      weight: 55,
+      bust: 4,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/b7459a76-94e4-43c2-9997-fb8b8fec9402.jpg"
     },
     {
       name: "Диана",
       age: 23,
-      description: "Эксперт в области танtra-массажа. Помогает достичь гармонии тела и разума через прикосновения.",
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/c4ca388a-aed0-4491-84ab-bfd095595545.jpg"
+      height: 165,
+      weight: 50,
+      bust: 3,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/b103c0e4-d5c4-40ef-945d-5f3184994992.jpg"
     }
   ];
 
@@ -106,11 +112,11 @@ const Index = () => {
       <section id="specialists" className="py-24 px-6 bg-card/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-5xl md:text-6xl font-light text-foreground">
-              Наши <span className="text-accent">мастера</span>
+            <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
+              Мастера <span className="text-accent">спа-салона</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Профессиональные массажистки с многолетним опытом
+              Посетив Gentleman Spa Шоколад, даже самый искушённый гость, получит 100% удовольствие и расслабление!
             </p>
           </div>
 
@@ -127,14 +133,26 @@ const Index = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <div className="p-6 space-y-3">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-2xl font-normal text-foreground">{specialist.name}</h3>
-                    <span className="text-muted-foreground">{specialist.age} лет</span>
+                <div className="p-6 space-y-4">
+                  <h3 className="text-2xl font-normal text-foreground">{specialist.name}</h3>
+                  <div className="grid grid-cols-2 gap-3 text-sm">
+                    <div className="flex items-center gap-2">
+                      <Icon name="Cake" size={16} className="text-accent" />
+                      <span className="text-muted-foreground">{specialist.age} лет</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Ruler" size={16} className="text-accent" />
+                      <span className="text-muted-foreground">{specialist.height} см</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Scale" size={16} className="text-accent" />
+                      <span className="text-muted-foreground">{specialist.weight} кг</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Heart" size={16} className="text-accent" />
+                      <span className="text-muted-foreground">{specialist.bust} размер</span>
+                    </div>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {specialist.description}
-                  </p>
                 </div>
               </Card>
             ))}
