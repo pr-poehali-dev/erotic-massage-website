@@ -89,10 +89,10 @@ const Index = () => {
             CHOCOLATE
           </h1>
           
-          <div className="flex flex-col gap-6 pt-4">
+          <div className="flex flex-col gap-6 pt-4 items-center">
             <Button 
               size="lg" 
-              className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-10 py-7 text-lg w-fit rounded-lg shadow-lg"
+              className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-10 py-7 text-lg rounded-lg shadow-lg"
               onClick={() => scrollToSection('specialists')}
             >
               Выбрать девушку
