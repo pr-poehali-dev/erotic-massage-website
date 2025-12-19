@@ -30,21 +30,26 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <section id="hero" className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+      <section id="hero" className="relative min-h-screen flex items-start justify-start px-8 md:px-16 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/05ad9283-8771-435b-acac-ab073bf03ec8.jpg)' }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
         <div 
-          className="absolute inset-0 opacity-30"
+          className="absolute inset-0"
           style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E")`
+            background: 'linear-gradient(to right, rgba(46, 30, 20, 0.95) 0%, rgba(46, 30, 20, 0.7) 40%, rgba(139, 69, 19, 0.3) 70%, rgba(218, 112, 37, 0.2) 100%)'
+          }}
+        ></div>
+        <div 
+          className="absolute inset-0 opacity-5"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='2' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E")`
           }}
         ></div>
         
-        <div className="relative z-10 max-w-4xl mx-auto text-left space-y-8 animate-fade-in">
-          <div className="inline-block bg-accent/90 text-background px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider">
+        <div className="relative z-10 max-w-3xl text-left space-y-8 animate-fade-in pt-32 md:pt-40">
+          <div className="inline-block bg-orange-600/90 text-white px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider">
             Эротический массаж в Нижнем Новгороде
           </div>
           
@@ -57,7 +62,7 @@ const Index = () => {
           <div className="flex flex-col gap-6 pt-4">
             <Button 
               size="lg" 
-              className="bg-accent hover:bg-accent/90 text-background font-semibold px-10 py-7 text-lg w-fit rounded-lg"
+              className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-10 py-7 text-lg w-fit rounded-lg shadow-lg"
               onClick={() => scrollToSection('specialists')}
             >
               Выбрать девушку
