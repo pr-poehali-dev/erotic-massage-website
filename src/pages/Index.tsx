@@ -60,7 +60,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <section id="hero" className="relative min-h-screen flex items-start justify-start px-8 md:px-16 overflow-hidden">
+      <section id="hero" className="relative min-h-screen flex items-center justify-center px-8 md:px-16 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/05ad9283-8771-435b-acac-ab073bf03ec8.jpg)' }}
@@ -78,7 +78,7 @@ const Index = () => {
           }}
         ></div>
         
-        <div className="relative z-10 max-w-3xl text-left space-y-8 animate-fade-in pt-32 md:pt-40">
+        <div className="relative z-10 max-w-3xl text-center space-y-8 animate-fade-in">
           <div className="inline-block text-white px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider bg-[#cc9f67]">
             Эротический массаж в Нижнем Новгороде
           </div>
