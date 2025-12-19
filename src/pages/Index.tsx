@@ -501,7 +501,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <a 
               href="tel:+79991234567"
-              className="flex flex-col items-center gap-4 p-8 bg-card border border-border rounded-lg hover:bg-card/80 hover:scale-105 transition-all duration-300 group"
+              className="flex flex-col items-center gap-4 p-8 bg-[#140700] border border-border rounded-lg hover:bg-[#1a0900] hover:scale-105 transition-all duration-300 group"
             >
               <Icon name="Phone" className="text-accent group-hover:rotate-12 transition-transform" size={40} />
               <div>
@@ -514,7 +514,7 @@ const Index = () => {
               href="https://wa.me/79991234567"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center gap-4 p-8 bg-card border border-border rounded-lg hover:bg-card/80 hover:scale-105 transition-all duration-300 group"
+              className="flex flex-col items-center gap-4 p-8 bg-[#140700] border border-border rounded-lg hover:bg-[#1a0900] hover:scale-105 transition-all duration-300 group"
             >
               <Icon name="MessageCircle" className="text-accent group-hover:rotate-12 transition-transform" size={40} />
               <div>
@@ -527,7 +527,7 @@ const Index = () => {
               href="https://t.me/yoursalon"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center gap-4 p-8 bg-card border border-border rounded-lg hover:bg-card/80 hover:scale-105 transition-all duration-300 group"
+              className="flex flex-col items-center gap-4 p-8 bg-[#140700] border border-border rounded-lg hover:bg-[#1a0900] hover:scale-105 transition-all duration-300 group"
             >
               <Icon name="Send" className="text-accent group-hover:rotate-12 transition-transform" size={40} />
               <div>
