@@ -359,7 +359,7 @@ const Index = () => {
           <p className="text-base md:text-lg text-foreground leading-relaxed">
             Дорогие гости! К сожалению, звонки в Telegram и WhatsApp на территории РФ блокируют. 
             Но вы всегда можете связаться с нами по номеру телефона{' '}
-            <a href="tel:+79200117839" className="text-orange-600 font-semibold hover:text-orange-700 underline">
+            <a href="tel:+79200117839" className="text-orange-600 font-semibold hover:text-orange-700 underline whitespace-nowrap">
               +7-920-011-78-39
             </a>{' '}
             ❤️
