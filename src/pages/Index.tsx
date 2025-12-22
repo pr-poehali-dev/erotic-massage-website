@@ -308,7 +308,7 @@ const Index = () => {
         ></div>
         
         <div className="relative z-10 max-w-3xl text-center space-y-8 animate-fade-in">
-          <div className="inline-block text-white px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider bg-[#381c1c42]">
+          <div className="inline-block text-white px-6 py-3 rounded-full text-sm md:text-base font-medium uppercase tracking-wider bg-[#180d048f]">
             Эротический массаж в Нижнем Новгороде
           </div>
           
