@@ -780,7 +780,54 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-24 px-6 bg-[#140700]">
+      <section className="py-24 px-6 bg-[#140700]">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-6 space-y-2">
+            <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
+              Double Chocolate
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              для пар
+            </p>
+          </div>
+
+          <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 text-lg">
+            Яркая программа для пар с подарком от нас. Вы сможете увидеть, как получает наслаждение ваша вторая половина. Такая программа разжигает огонь страсти с новой силой.
+          </p>
+
+          <Card className="bg-[#1f1108] border-border overflow-hidden hover:scale-[1.02] transition-transform duration-300">
+            <div className="grid md:grid-cols-2 gap-0">
+              <div className="aspect-square md:aspect-auto overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/669d8b4672791158d93ca0d4_maxresdefault.jpg"
+                  alt="Love Story"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-8 md:p-12 flex flex-col justify-center">
+                <h3 className="text-4xl md:text-5xl font-light text-foreground mb-6">Love Story (для пар)</h3>
+                <p className="text-muted-foreground leading-relaxed mb-8 text-lg">
+                  Яркая программа для пар с подарком от нас. Вы сможете увидеть, как получает наслаждение ваша вторая половина.
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-baseline gap-3">
+                    <span className="text-4xl md:text-5xl font-semibold text-orange-500">14 000 руб</span>
+                    <span className="text-muted-foreground text-lg">/ 90 мин.</span>
+                  </div>
+                  <Button 
+                    size="lg"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white text-lg py-6"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </div>
+      </section>
+
+      <section id="about" className="py-24 px-6 bg-[#3d2817]">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-5xl md:text-6xl font-light text-foreground">
