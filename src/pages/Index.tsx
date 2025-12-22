@@ -543,7 +543,7 @@ const Index = () => {
             <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
               <div className="aspect-video overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/9d8e1275-57a4-4e73-a0b5-df6344ce7d0d.jpg"
+                  src="https://cdn.poehali.dev/files/5п.jpg"
                   alt="Вожделение 2.0"
                   className="w-full h-full object-cover"
                 />
