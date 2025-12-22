@@ -299,7 +299,7 @@ const Index = () => {
       <section id="hero" className="relative min-h-screen md:h-[660px] flex items-center justify-center px-8 md:px-16 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
-          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/e5b6da77-ab76-46e9-ab81-ca5bb6601e4e.jpg)' }}
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/890c23f8-0b4c-480a-9d6c-6e2efee647db.jpg)' }}
         ></div>
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
