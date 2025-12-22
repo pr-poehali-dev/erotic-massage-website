@@ -390,19 +390,19 @@ const Index = () => {
                   <h3 className="text-2xl font-normal text-foreground">{specialist.name}</h3>
                   <div className="grid grid-cols-2 gap-3 text-sm">
                     <div className="flex items-center gap-2">
-                      <Icon name="Cake" size={16} className="text-orange-600" />
+                      <Icon name="Cake" size={16} style={{ color: '#B9875B' }} />
                       <span className="text-muted-foreground">{specialist.age} лет</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Icon name="Ruler" size={16} className="text-orange-600" />
+                      <Icon name="Ruler" size={16} style={{ color: '#B9875B' }} />
                       <span className="text-muted-foreground">{specialist.height} см</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Icon name="Scale" size={16} className="text-orange-600" />
+                      <Icon name="Scale" size={16} style={{ color: '#B9875B' }} />
                       <span className="text-muted-foreground">{specialist.weight} кг</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Icon name="Heart" size={16} className="text-orange-600" />
+                      <Icon name="Heart" size={16} style={{ color: '#B9875B' }} />
                       <span className="text-muted-foreground">{specialist.bust} размер</span>
                     </div>
                   </div>
