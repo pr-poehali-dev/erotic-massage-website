@@ -2,9 +2,16 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
 import { useState } from "react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [expressDialogOpen, setExpressDialogOpen] = useState(false);
   const specialists = [
     {
       name: "Ева",
@@ -452,6 +459,7 @@ const Index = () => {
                   </div>
                   <Button 
                     className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                    onClick={() => setExpressDialogOpen(true)}
                   >
                     Подробнее
                   </Button>
@@ -1022,6 +1030,46 @@ const Index = () => {
           </p>
         </div>
       </footer>
+
+      <Dialog open={expressDialogOpen} onOpenChange={setExpressDialogOpen}>
+        <DialogContent className="max-w-2xl bg-[#140700] border-border">
+          <DialogHeader>
+            <DialogTitle className="text-3xl font-light text-foreground">EXPRESS</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-6">
+            <div className="aspect-video overflow-hidden rounded-lg">
+              <img 
+                src="https://cdn.poehali.dev/files/66a10a5252fa3be886562786_devuska-brunetka-vzg.jpg"
+                alt="EXPRESS"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="space-y-4">
+              <h3 className="text-xl font-medium text-foreground">Состав программы</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">•</span>
+                  <span>душ до и после программы</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">•</span>
+                  <span>боди релакс</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">•</span>
+                  <span>чувственный релакс</span>
+                </li>
+              </ul>
+            </div>
+            <Button 
+              className="w-full bg-orange-600 hover:bg-orange-700 text-white text-lg py-6"
+              onClick={() => window.open('https://t.me/yoursalon', '_blank')}
+            >
+              Написать в Telegram
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
