@@ -516,7 +516,7 @@ const Index = () => {
             <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
               <div className="aspect-video overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/ab73daf2-978a-48f5-b0aa-0dce988d39d3.jpg"
+                  src="https://cdn.poehali.dev/files/4п.png"
                   alt="Поцелуй Гейши"
                   className="w-full h-full object-cover"
                 />
