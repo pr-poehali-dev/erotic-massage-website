@@ -573,11 +573,11 @@ const Index = () => {
       <section id="milk-chocolate" className="relative py-24 px-6 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/02117d49-d707-4505-85ad-db9e07e25cc5.jpg)' }}
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/673eca241114d8c6d14a6376_7-min.jpg)' }}
         ></div>
         <div 
           className="absolute inset-0 bg-[#0b0501]"
-          style={{ opacity: 0.8 }}
+          style={{ opacity: 0.85 }}
         ></div>
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-6 space-y-2">
