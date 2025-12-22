@@ -7,51 +7,147 @@ const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const specialists = [
     {
-      name: "Алина",
-      age: 24,
-      height: 168,
-      weight: 52,
-      bust: 3,
+      name: "Ева",
+      age: 26,
+      height: 172,
+      weight: 64,
+      bust: 2.5,
       image: "https://cdn.poehali.dev/files/IMG_1181-Bearbeitet.JPG"
     },
     {
-      name: "Вероника",
-      age: 26,
-      height: 172,
-      weight: 55,
-      bust: 4,
+      name: "Полина",
+      age: 23,
+      height: 171,
+      weight: 61,
+      bust: 2,
       image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/b7459a76-94e4-43c2-9997-fb8b8fec9402.jpg"
     },
     {
-      name: "Диана",
-      age: 23,
-      height: 165,
-      weight: 50,
-      bust: 3,
+      name: "Соня",
+      age: 20,
+      height: 175,
+      weight: 55,
+      bust: 2,
       image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/b103c0e4-d5c4-40ef-945d-5f3184994992.jpg"
+    },
+    {
+      name: "Бэлла",
+      age: 20,
+      height: 170,
+      weight: 52,
+      bust: 2,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/33c645e0-0251-4380-a2d0-8f7dc89a12f0.jpg"
+    },
+    {
+      name: "Лиля",
+      age: 21,
+      height: 169,
+      weight: 52,
+      bust: 2,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/519e8dba-f6c6-4252-b96c-b9ee8a023f09.jpg"
+    },
+    {
+      name: "Мия",
+      age: 20,
+      height: 170,
+      weight: 53,
+      bust: 2,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Натали",
+      age: 23,
+      height: 167,
+      weight: 52,
+      bust: 2,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Алина",
+      age: 23,
+      height: 160,
+      weight: 46,
+      bust: 1.5,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Мария",
+      age: 22,
+      height: 162,
+      weight: 46,
+      bust: 1,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Роксана",
+      age: 24,
+      height: 166,
+      weight: 52,
+      bust: 1,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Лиза",
+      age: 22,
+      height: 173,
+      weight: 62,
+      bust: 2.5,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Яна",
+      age: 21,
+      height: 168,
+      weight: 55,
+      bust: 4,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Ася",
+      age: 22,
+      height: 179,
+      weight: 56,
+      bust: 2,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Мира",
+      age: 30,
+      height: 177,
+      weight: 60,
+      bust: 3,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Юля",
+      age: 30,
+      height: 176,
+      weight: 70,
+      bust: 2.5,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
     },
     {
       name: "Карина",
       age: 25,
-      height: 170,
-      weight: 54,
-      bust: 3,
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/33c645e0-0251-4380-a2d0-8f7dc89a12f0.jpg"
-    },
-    {
-      name: "Софья",
-      age: 27,
-      height: 175,
-      weight: 58,
-      bust: 4,
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/519e8dba-f6c6-4252-b96c-b9ee8a023f09.jpg"
-    },
-    {
-      name: "Милана",
-      age: 22,
-      height: 163,
-      weight: 48,
+      height: 167,
+      weight: 50,
       bust: 2,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Кристина",
+      age: 23,
+      height: 170,
+      weight: 57,
+      bust: 1.5,
+      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
+    },
+    {
+      name: "Аня",
+      age: 25,
+      height: 167,
+      weight: 71,
+      bust: 2.5,
       image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/855355c7-6bd5-40cf-ba3c-b94ebf0812ca.jpg"
     }
   ];
