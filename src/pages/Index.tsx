@@ -195,13 +195,21 @@ const Index = () => {
 
       <section id="hero" className="relative min-h-screen flex items-center justify-center px-8 md:px-16 overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/05ad9283-8771-435b-acac-ab073bf03ec8.jpg)' }}
+          className="absolute inset-0 left-0 w-1/3 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/a38b86fe-e70d-4662-9b53-8fd154d5e125.jpg)' }}
+        ></div>
+        <div 
+          className="absolute inset-0 right-0 left-2/3 w-1/3 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/bd2d8ae6-ed66-4cd4-b41a-61035dca853e.jpg)' }}
+        ></div>
+        <div 
+          className="absolute inset-0 left-1/3 w-1/3 bg-cover bg-center bg-no-repeat blur-md"
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/fc58636c-845a-4ce9-9da4-30034a8e6e7a.jpg)' }}
         ></div>
         <div 
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to right, rgba(46, 30, 20, 0.95) 0%, rgba(46, 30, 20, 0.7) 40%, rgba(139, 69, 19, 0.3) 70%, rgba(218, 112, 37, 0.2) 100%)'
+            background: 'linear-gradient(to right, rgba(20, 7, 0, 0.6) 0%, rgba(20, 7, 0, 0.3) 33%, rgba(20, 7, 0, 0.3) 66%, rgba(20, 7, 0, 0.6) 100%)'
           }}
         ></div>
         <div 
