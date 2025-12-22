@@ -835,6 +835,46 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-24 px-6 bg-[#0b0501]">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-light text-foreground uppercase tracking-wide">
+              ДОПОЛНИТЕЛЬНЫЕ SPA-ПРОГРАММЫ
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="bg-[#1f1108] border-border overflow-hidden hover:scale-[1.02] transition-transform duration-300">
+              <div className="p-8 md:p-10 space-y-6">
+                <div className="space-y-2">
+                  <p className="text-muted-foreground text-lg">1 час</p>
+                  <h3 className="text-3xl md:text-4xl font-light text-foreground">
+                    "Сон с мастером"
+                  </h3>
+                </div>
+                <div className="pt-4">
+                  <span className="text-4xl md:text-5xl font-semibold text-orange-500">5000 руб.</span>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1f1108] border-border overflow-hidden hover:scale-[1.02] transition-transform duration-300">
+              <div className="p-8 md:p-10 space-y-6">
+                <div className="space-y-2">
+                  <p className="text-muted-foreground text-lg">20 мин.</p>
+                  <h3 className="text-3xl md:text-4xl font-light text-foreground">
+                    "Омовение ног с алтайскими травами"
+                  </h3>
+                </div>
+                <div className="pt-4">
+                  <span className="text-4xl md:text-5xl font-semibold text-orange-500">3500 руб.</span>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="py-24 px-6 bg-[#3d2817]">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center space-y-4">
