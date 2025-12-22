@@ -451,8 +451,7 @@ const Index = () => {
                     <span className="text-muted-foreground">/ 30 мин.</span>
                   </div>
                   <Button 
-                    variant="outline"
-                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
                   >
                     Подробнее
                   </Button>
@@ -479,8 +478,7 @@ const Index = () => {
                     <span className="text-muted-foreground">/ 45 мин.</span>
                   </div>
                   <Button 
-                    variant="outline"
-                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
                   >
                     Подробнее
                   </Button>
@@ -507,8 +505,7 @@ const Index = () => {
                     <span className="text-muted-foreground">/ 60 мин.</span>
                   </div>
                   <Button 
-                    variant="outline"
-                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
                   >
                     Подробнее
                   </Button>
@@ -535,8 +532,7 @@ const Index = () => {
                     <span className="text-muted-foreground">/ 60 мин.</span>
                   </div>
                   <Button 
-                    variant="outline"
-                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
                   >
                     Подробнее
                   </Button>
@@ -563,8 +559,7 @@ const Index = () => {
                     <span className="text-muted-foreground">/ 60 мин.</span>
                   </div>
                   <Button 
-                    variant="outline"
-                    className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
                   >
                     Подробнее
                   </Button>
