@@ -432,7 +432,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
               <div className="aspect-video overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/1п.jpg"
@@ -459,7 +459,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
               <div className="aspect-video overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/2п.jpg"
@@ -486,7 +486,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
               <div className="aspect-video overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/3п.jpg"
@@ -513,7 +513,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
               <div className="aspect-video overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/4п.png"
@@ -540,7 +540,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
               <div className="aspect-video overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/5п.jpg"
@@ -590,7 +590,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-2xl font-normal text-foreground mb-3">VIP</h3>
                 <p className="text-muted-foreground leading-relaxed flex-1">
@@ -619,7 +619,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-2xl font-normal text-foreground mb-3">Горячий лёд</h3>
                 <p className="text-muted-foreground leading-relaxed flex-1">
@@ -644,7 +644,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-2xl font-normal text-foreground mb-3">Барин</h3>
                 <p className="text-muted-foreground leading-relaxed flex-1">
@@ -676,7 +676,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
               <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-2xl font-normal text-foreground mb-3">Между мной и ...</h3>
                 <p className="text-muted-foreground leading-relaxed flex-1">
@@ -701,7 +701,7 @@ const Index = () => {
               </div>
             </Card>
 
-            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
+            <Card className="bg-[#1C0E04] border-border overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
               <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-2xl font-normal text-foreground mb-3">Анатомия тела</h3>
                 <p className="text-muted-foreground leading-relaxed flex-1">
