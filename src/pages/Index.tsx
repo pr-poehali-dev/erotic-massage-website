@@ -343,8 +343,16 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-6 bg-orange-600/10 border-y border-orange-600/20">
-        <div className="max-w-4xl mx-auto text-center space-y-4">
+      <section className="relative py-12 px-6 border-y border-orange-600/20 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/673ed9291055e17f87833f99_9-min.jpg)' }}
+        ></div>
+        <div 
+          className="absolute inset-0 bg-[#0b0501]"
+          style={{ opacity: 0.85 }}
+        ></div>
+        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-4">
           <p className="text-base md:text-lg text-foreground leading-relaxed">
             Дорогие гости! К сожалению, звонки в Telegram и WhatsApp на территории РФ блокируют. 
             Но вы всегда можете связаться с нами по номеру телефона{' '}
