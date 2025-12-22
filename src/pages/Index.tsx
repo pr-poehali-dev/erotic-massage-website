@@ -570,6 +570,161 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="milk-chocolate" className="py-24 px-6 bg-[#0b0501]">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-6 space-y-2">
+            <h2 className="text-5xl md:text-6xl font-light text-foreground uppercase tracking-wide">
+              Milk Chocolate
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              для искушённых джентльменов
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">VIP</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
+                  Программа для VIP-персон, для тех, кто любит получать от жизни ВСЁ! Вся гамма чувственных наслаждений, океан блаженства.
+                </p>
+                <div className="pt-4 space-y-3 mt-auto">
+                  <div className="space-y-2">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">11000 руб</span>
+                      <span className="text-muted-foreground">/ 90 мин.</span>
+                    </div>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">15000 руб</span>
+                      <span className="text-muted-foreground">/ 120 мин.</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground italic">
+                      (+пенный релакс и скрабирование премиум косметикой LA Sultane De Saba)
+                    </p>
+                  </div>
+                  <Button 
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Горячий лёд</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
+                  Стихия воды и огня, охватывает каждую эрогенную зону всего тела, приводя к самым незабываемым и ярким ощущениям расслабления и перезагрузки всего организма.
+                </p>
+                <div className="pt-4 space-y-3 mt-auto">
+                  <div className="space-y-2">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">18000 руб</span>
+                      <span className="text-muted-foreground">/ 150 мин.</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground">
+                      Тайская секретная техника добавит изюминку к этим ощущениям. Вы достойны этого!
+                    </p>
+                  </div>
+                  <Button 
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Барин</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
+                  Ты, два невероятных мастера и незабываемый отдых.
+                </p>
+                <div className="pt-4 space-y-3 mt-auto">
+                  <div className="space-y-2">
+                    <p className="text-sm text-muted-foreground italic">
+                      * на выбор 2 или 3 мастера
+                    </p>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">25000 руб</span>
+                      <span className="text-muted-foreground">/ 2 мастера</span>
+                    </div>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">35000 руб</span>
+                      <span className="text-muted-foreground">/ 3 мастера</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground italic">
+                      (+ GIRL'S SHOW)
+                    </p>
+                  </div>
+                  <Button 
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-1 lg:col-start-auto">
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Между мной и ...</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
+                  Программа для избалованных джентльменов, где можно насладиться эстетикой игры и расслабления. Твой друг и ты получишь самые яркие моменты релакса, погружаясь с каждой минутой в вихрь чувственного отдыха.
+                </p>
+                <div className="pt-4 space-y-3 mt-auto">
+                  <div className="space-y-2">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">28000 руб</span>
+                      <span className="text-muted-foreground">/ 120 мин.</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground">
+                      Доверься программе, а все остальное, подождёт!
+                    </p>
+                  </div>
+                  <Button 
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-[#1C0E04] border-orange-600/20 overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col md:col-start-2 lg:col-start-auto">
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-2xl font-normal text-foreground mb-3">Анатомия тела</h3>
+                <p className="text-muted-foreground leading-relaxed flex-1">
+                  Окунись в симфонию чувств, оздоровления и ярких ощущений! Эта программа создана чтобы каждый сантиметр твоего тела расслабился и окунулся в вихрь наслаждения и релакса.
+                </p>
+                <div className="pt-4 space-y-3 mt-auto">
+                  <div className="space-y-2">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">25000 руб</span>
+                      <span className="text-muted-foreground">/ 120 мин.</span>
+                    </div>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-semibold text-orange-600">35000 руб</span>
+                      <span className="text-muted-foreground">/ 180 мин.</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground">
+                      Никаких слов, только изучение...
+                    </p>
+                  </div>
+                  <Button 
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+                  >
+                    Подробнее
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 px-6 bg-[#3d2817]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-6 space-y-2">
