@@ -298,7 +298,11 @@ const Index = () => {
 
       <section id="hero" className="relative min-h-screen md:h-[660px] flex items-center justify-center px-8 md:px-16 overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-right md:bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
+          style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/e5b6da77-ab76-46e9-ab81-ca5bb6601e4e.jpg)' }}
+        ></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
           style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/673c22e3701d89992d540780_фон-min.jpg)' }}
         ></div>
         <div 
