@@ -20,7 +20,7 @@ const Index = () => {
       height: 171,
       weight: 61,
       bust: 2,
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/b7459a76-94e4-43c2-9997-fb8b8fec9402.jpg"
+      image: "https://cdn.poehali.dev/files/2.png"
     },
     {
       name: "Соня",
@@ -28,7 +28,7 @@ const Index = () => {
       height: 175,
       weight: 55,
       bust: 2,
-      image: "https://cdn.poehali.dev/projects/ef852a89-ba00-4a18-aa3f-8b9b570a09e5/files/b103c0e4-d5c4-40ef-945d-5f3184994992.jpg"
+      image: "https://cdn.poehali.dev/files/2.png"
     },
     {
       name: "Бэлла",
