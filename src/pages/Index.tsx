@@ -494,7 +494,7 @@ const Index = () => {
             Эта программа придется по вкусу настоящим ценителям властных и страстных женщин.
           </p>
 
-          <Card className="bg-[#1f1108] border-red-600/30 overflow-hidden hover:scale-[1.02] transition-transform duration-300">
+          <Card className="bg-[#1f1108] border-orange-600/30 overflow-hidden hover:scale-[1.02] transition-transform duration-300">
             <div className="grid md:grid-cols-2 gap-0">
               <div className="aspect-square md:aspect-auto overflow-hidden">
                 <img 
@@ -515,7 +515,7 @@ const Index = () => {
                   </div>
                   <Button 
                     size="lg"
-                    className="w-full bg-red-600 hover:bg-red-700 text-white text-lg py-6"
+                    className="w-full bg-orange-600 hover:bg-orange-700 text-white text-lg py-6"
                   >
                     Подробнее
                   </Button>
