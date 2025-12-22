@@ -12,7 +12,7 @@ const Index = () => {
       height: 172,
       weight: 64,
       bust: 2.5,
-      image: "https://cdn.poehali.dev/files/IMG_1181-Bearbeitet.JPG"
+      image: "https://cdn.poehali.dev/files/1.png"
     },
     {
       name: "Полина",
